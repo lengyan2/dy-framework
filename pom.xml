@@ -6,8 +6,11 @@
 
     <groupId>com.dy.framework</groupId>
     <artifactId>dy-framework</artifactId>
-    <version>${dy-framework.version</version>
+    <version>${dy-framework.version}</version>
     <description>dy-framework 快速开发脚手架</description>
+    <modules>
+        <module>dy-core</module>
+    </modules>
     <packaging>pom</packaging>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -18,7 +21,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <dy-framework.version>1.0.0</dy-framework.version>
+        <dy-framework.version>1.0.1</dy-framework.version>
 
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
