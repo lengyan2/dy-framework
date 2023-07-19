@@ -10,6 +10,7 @@
     <description>dy-framework 快速开发脚手架</description>
     <modules>
         <module>dy-core</module>
+        <module>dy-cloud-starter</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
@@ -321,4 +322,35 @@
 
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <!-- 统一版本号管理 -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>flatten-maven-plugin</artifactId>
+                <version>1.1.0</version>
+                <configuration>
+                    <updatePomFile>true</updatePomFile>
+                    <flattenMode>resolveCiFriendliesOnly</flattenMode>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>flatten</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>flatten</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>flatten.clean</id>
+                        <phase>clean</phase>
+                        <goals>
+                            <goal>clean</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
