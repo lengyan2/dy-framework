@@ -11,6 +11,7 @@
     <modules>
         <module>dy-core</module>
         <module>dy-cloud-starter</module>
+        <module>dy-crud-starter</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
