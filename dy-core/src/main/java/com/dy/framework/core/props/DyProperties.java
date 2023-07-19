@@ -20,6 +20,15 @@ import java.util.List;
 public class DyProperties {
 
 
+    private final Security security = new Security();
+
+    private final Crud crud = new Crud();
+
+    private final Knife4j knife4j = new Knife4j();
+
+    private final Tenant tenant = new Tenant();
+
+    private final Web web = new Web();
 
     @Data
     public static class Security {
