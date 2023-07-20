@@ -1,2 +1,2 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration = com.dy.framework.crud.NacosConfigAutoConfiguration\
-  ,com.dy.framework.crud.NacosDiscoveryAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration = com.dy.framework.crud.config.DyMybatisPlusAutoConfiguration\
+  ,com.dy.framework.crud.config.DynamicDataSourceAutoConfiguration

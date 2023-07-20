@@ -5,6 +5,7 @@ import com.dy.framework.core.enums.IdGeneratorStrategyEnum;
 import com.dy.framework.core.enums.TenantIsolateLevelEnum;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -16,6 +17,7 @@ import java.util.List;
  * @date 2023-07-18 21:43
  */
 @ConfigurationProperties(prefix = "dy")
+@Configuration
 @Data
 public class DyProperties {
 
