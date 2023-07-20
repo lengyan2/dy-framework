@@ -12,6 +12,8 @@
         <module>dy-core</module>
         <module>dy-cloud-starter</module>
         <module>dy-crud-starter</module>
+        <module>dy-tenant-starter</module>
+        <module>dy-knife4j-starter</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
