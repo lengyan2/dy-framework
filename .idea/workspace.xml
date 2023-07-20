@@ -4,13 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ac322b0-9b95-42a9-a9bb-525a79487474" name="Changes" comment="" />
+    <list default="true" id="8ac322b0-9b95-42a9-a9bb-525a79487474" name="Changes" comment="feat(dy-core): 定义基础业务异常、常用枚举、自定义属性">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/annotation/EnableInitHikariPoolAtStartup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/config/DynamicDataSourceAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/config/InitHikariPoolAtStartupConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/dynamicdatasource/DataSourceDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/dynamicdatasource/DataSourceDefinitionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/dynamicdatasource/DynamicDataSourceRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/entity/DyBaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/entity/DyNoTenantBaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/enums/EnabledStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/enums/YesOrNoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/handler/DySequenceIdGenerateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/handler/DySnowFlakeIdGenerateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-core/src/main/java/com/dy/framework/core/props/DyProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-core/src/main/java/com/dy/framework/core/props/DyProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -18,7 +57,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2ShfloYniJJipJWDdOV5Zwazuqw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,10 +68,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/daiyuanjing/dy-framework/dy-crud-starter",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\daiyuanjing\dy-framework\dy-crud-starter" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +94,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689603887356</updated>
-      <workItem from="1689603888717" duration="1000" />
+      <workItem from="1689603888717" duration="21019000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(*): 构建dy-framework项目">
+      <created>1689604140030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689604140030</updated>
+    </task>
+    <task id="LOCAL-00002" summary="build(pom.xml): dy-framework相关依赖导入及版本控制">
+      <created>1689607269120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689607269120</updated>
+    </task>
+    <task id="LOCAL-00003" summary="build(dy-core): 构建dy-core模块">
+      <created>1689608428311</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689608428311</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(dy-core): 定义基础业务异常、常用枚举、自定义属性">
+      <created>1689694698702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689694698702</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(*): 构建dy-framework项目" />
+    <MESSAGE value="build(pom.xml): dy-framework相关依赖导入及版本控制" />
+    <MESSAGE value="build(dy-core): 构建dy-core模块" />
+    <MESSAGE value="feat(dy-core): 定义基础业务异常、常用枚举、自定义属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(dy-core): 定义基础业务异常、常用枚举、自定义属性" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
