@@ -14,6 +14,7 @@
         <module>dy-crud-starter</module>
         <module>dy-tenant-starter</module>
         <module>dy-knife4j-starter</module>
+        <module>dy-dubbo-starter</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
