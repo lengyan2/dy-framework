@@ -16,6 +16,7 @@
         <module>dy-knife4j-starter</module>
         <module>dy-dubbo-starter</module>
         <module>dy-redis-starter</module>
+        <module>dy-rocketmq-starter</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
