@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.dy.framework</groupId>
         <artifactId>dy-framework</artifactId>
-        <version>1.0.1</version>
+        <version>${dy-framework.version}</version>
     </parent>
 
     <artifactId>dy-crud-starter</artifactId>

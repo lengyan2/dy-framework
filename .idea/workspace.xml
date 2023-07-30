@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ac322b0-9b95-42a9-a9bb-525a79487474" name="Changes" comment="feat(dy-core): 定义基础业务异常、常用枚举、自定义属性">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/annotation/EnableInitHikariPoolAtStartup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/config/DynamicDataSourceAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/config/InitHikariPoolAtStartupConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/dynamicdatasource/DataSourceDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/dynamicdatasource/DataSourceDefinitionProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/dynamicdatasource/DynamicDataSourceRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/entity/DyBaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/entity/DyNoTenantBaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/enums/EnabledStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/enums/YesOrNoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/handler/DySequenceIdGenerateHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/java/com/dy/framework/crud/handler/DySnowFlakeIdGenerateHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dy-crud-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy-core/src/main/java/com/dy/framework/core/props/DyProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-core/src/main/java/com/dy/framework/core/props/DyProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-rocketmq-starter/src/main/java/com/dy/framework/rocketmq/aspect/StreamListenerPrintAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-rocketmq-starter/src/main/java/com/dy/framework/rocketmq/aspect/StreamListenerPrintAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dy-rocketmq-starter/src/main/java/com/dy/framework/rocketmq/config/DyRocketMqAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dy-rocketmq-starter/src/main/java/com/dy/framework/rocketmq/config/DyRocketMqAutoConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +26,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2ShfloYniJJipJWDdOV5Zwazuqw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -66,10 +42,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.dy-rocketmq-starter [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "C:/Users/daiyuanjing/dy-framework/dy-crud-starter",
     "node.js.detected.package.eslint": "true",
@@ -135,7 +113,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

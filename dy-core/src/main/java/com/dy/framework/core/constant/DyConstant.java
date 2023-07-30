@@ -110,4 +110,11 @@ public interface DyConstant {
          */
         Long DEFAULT_PRIVILEGED_TENANT_ID = 0L;
     }
+
+    interface Minio{
+        /**
+         * minio 配置前缀
+         */
+        String PREFIX = "minio";
+    }
 }
