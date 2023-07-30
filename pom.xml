@@ -62,7 +62,10 @@
         <mysql.version>8.0.28</mysql.version>
         <postgresql.version>42.3.4</postgresql.version>
 
-
+        <!-- minio version-->
+        <minio.version>1.2.1</minio.version>
+        <!-- okhttp version-->
+        <okhttp.version>5.0.0-alpha.11</okhttp.version>
     </properties>
 
 
@@ -346,6 +349,20 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-undertow</artifactId>
                 <version>${undertow-starter.version}</version>
+            </dependency>
+
+            <!-- minio -->
+            <dependency>
+                <groupId>com.jvm123</groupId>
+                <artifactId>minio-spring-boot-starter</artifactId>
+                <version>${minio.version}</version>
+            </dependency>
+            <!--okhttp -->
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${okhttp.version}</version>
+                <scope>compile</scope>
             </dependency>
 
         </dependencies>

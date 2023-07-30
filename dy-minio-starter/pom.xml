@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.dy.framework</groupId>
         <artifactId>dy-framework</artifactId>
-        <version>1.0.1</version>
+        <version>${dy-framework.version}</version>
     </parent>
 
     <artifactId>dy-minio-starter</artifactId>
@@ -16,5 +16,30 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.jvm123</groupId>
+            <artifactId>minio-spring-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.google.guava</groupId>
+                    <artifactId>guava</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.dy.framework</groupId>
+            <artifactId>dy-web-starter</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dy.framework</groupId>
+            <artifactId>dy-knife4j-starter</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
 </project>
