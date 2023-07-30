@@ -17,6 +17,7 @@
         <module>dy-dubbo-starter</module>
         <module>dy-redis-starter</module>
         <module>dy-rocketmq-starter</module>
+        <module>dy-web-starter</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
