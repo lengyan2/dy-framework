@@ -6,10 +6,10 @@
     <parent>
         <groupId>com.dy.framework</groupId>
         <artifactId>dy-framework</artifactId>
-        <version>${dy-framework.version}</version>
+        <version>1.0.1</version>
     </parent>
 
-    <artifactId>dy-knife4j-starter</artifactId>
+    <artifactId>dy-minio-starter</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -17,19 +17,4 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.dy.framework</groupId>
-            <artifactId>dy-core</artifactId>
-            <version>1.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>knife4j-spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.github.xiaoymin</groupId>
-            <artifactId>knife4j-micro-spring-boot-starter</artifactId>
-        </dependency>
-    </dependencies>
 </project>

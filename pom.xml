@@ -19,6 +19,7 @@
         <module>dy-rocketmq-starter</module>
         <module>dy-web-starter</module>
         <module>dy-xxljob-starter</module>
+        <module>dy-minio-starter</module>
     </modules>
     <packaging>pom</packaging>
     <parent>

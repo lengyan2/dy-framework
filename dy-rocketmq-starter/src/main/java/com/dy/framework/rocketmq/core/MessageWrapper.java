@@ -16,7 +16,6 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@RequiredArgsConstructor
 public class MessageWrapper<T> implements Serializable {
 
     private static final long serialVersionUID = 1L;
