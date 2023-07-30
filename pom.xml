@@ -18,6 +18,7 @@
         <module>dy-redis-starter</module>
         <module>dy-rocketmq-starter</module>
         <module>dy-web-starter</module>
+        <module>dy-xxljob-starter</module>
     </modules>
     <packaging>pom</packaging>
     <parent>
