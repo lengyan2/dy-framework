@@ -3,6 +3,7 @@ package com.dy.framework.minio.dto;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import org.springframework.web.multipart.MultipartFile;
 
 /**
  * Oss处理dto
@@ -22,4 +23,7 @@ public class OssProcessDTO {
 
     @ApiModelProperty("上传的文件名")
     private String fileName;
+
+    @ApiModelProperty("上传的文件")
+    private MultipartFile file;
 }
