@@ -1,6 +1,5 @@
 package com.dy.framework.minio.config;
 
-import com.dy.framework.core.constant.DyConstant;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -10,7 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @date 2023-07-30 22:31
  */
 @Data
-@ConfigurationProperties(prefix = DyConstant.Minio.PREFIX)
+@ConfigurationProperties(prefix = "minio")
 public class MinioProperties {
 
     /**
