@@ -24,7 +24,7 @@ public final class StreamListenerPrintAspect {
 
 
     @SneakyThrows
-    @Around("@within(org.springframework.cloud.stream.annotation.StreamListener) || @@annotation(org.springframework.cloud.stream.annotation.StreamListener)")
+    @Around("@within(org.springframework.cloud.stream.annotation.StreamListener) || @annotation(org.springframework.cloud.stream.annotation.StreamListener)")
     public Object streamListenerPring(ProceedingJoinPoint joinPoint){
         Object result;
         boolean executeResult = true;
