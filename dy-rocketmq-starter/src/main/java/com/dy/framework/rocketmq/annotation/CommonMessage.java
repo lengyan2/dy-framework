@@ -9,7 +9,7 @@ import java.lang.annotation.*;
 /**
  * 普通消息注解
  * @author daiyuanjing
- * @date 2023-07-21
+ * @date 2025-07-21
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
