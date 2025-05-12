@@ -21,7 +21,7 @@ public class MessageWrapper<T> implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /**
-     * 消息发送keys
+     * 消息发送keys222
      */
     @NotNull
     private String keys;
