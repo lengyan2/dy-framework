@@ -10,7 +10,7 @@ import java.util.UUID;
  * 消息体包装器
  *
  * @author daiyuanjing
- * @date 2023-07-29 9:21
+ * @date 2023-07-29 19:21
  */
 @Data
 @Builder
